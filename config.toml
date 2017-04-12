@@ -9,17 +9,17 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = ""
-  description = ""
-  email = ""
+  author = "YY,Algo,utahka"
+  description = "OKLAB website"
+  email = "oklab.main@gmail.com"
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "OKLAB"
     home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
+    work = "SlideShare"
+    testimonials = "Vision"
+    services = "Projects"
+    about = "People"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -39,39 +39,39 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "OKLAB"
+    subtitle = 'Communication and Media , Robotics Laboratory'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
-  [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
+  #[[params.intro.item]]
+  #  title = "Plan"
+  #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #  url = "#"
+  #  button = "Get In Touch"
+  #  icon = "icon-bulb"
+  #  img = "img_7.jpg"
 
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
+  #[[params.intro.item]]
+  #  title = "Develop"
+  #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #  url = "#"
+  #  button = "Click Me"
+  #  icon = "icon-wrench"
+  #  img = "img_8.jpg"
 
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+  #[[params.intro.item]]
+  #  title = "Launch"
+  #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #  url = "#"
+  #  button = "Why us?"
+  #  icon = "icon-rocket"
+  #  img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -79,141 +79,89 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.work]
-    enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    enable = false
+    title = "SlideShare"
+    #description = "説明"
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
-
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+    #[[params.work.row]]
+    #  img = "work_1.jpg"
+    #  alt = "Image2"
+    #  title = "タイトル"
+    #  subtitle = "サブタイトル"
 
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+    title = "Vision"
+    description = "説明"
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Projects"
+    #description = "説明"
+    
+    [[params.services.item]]
+      title = "音の特性を理解する"
+      description = "音には多様な情報が含まれます．音の特性を理解することで，人にとってより良い環境を作り出すことができます．また音声を分析することにより認識や分類を行うことが可能になります．これらを応用することで人とロボットの円滑なコミュニケーションに繋がります．"
+      icon = "icon-microphone"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "コミュニケーションとは何か"
+      description = "人と人とのコミュニケーションの中には，言語や感情」など，様々な情報が存在しています．ロボティクスにおいても「コミュニケーションとは何か」を考えることは研究の基本的概念として必要になります．情報を分析することで，よりコミュニケーションを円滑にすることを目的としています．"
+      icon = "icon-bubbles"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
+      title = "工学的に人を支援する"
+      description = "世界にはコミュニケーションを行うことが難しい人たちがたくさんいます．その人たちに，音やコミュニケーションの知見を活かしたシステムを作成することにより，手助けすることができると考えています．そこで，工学的な視点から，人を支援するシステムの開発や研究を行っています．"
+      icon = "icon-graduation"
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "People"
+    #description = "people"
 
     [[params.about.item]]
-      name = "Jean Smith"
+      name = "YY"
       position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "説明"
       img = "person1.jpg"
       alt = "Person1"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-globe", "#"]
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
+      name = "Algo"
       position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "説明"
       img = "person2.jpg"
       alt = "Person2"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-twitter", "https://twitter.com/pianodwm?lang=ja"],
+        ["icon-facebook", "https://www.facebook.com/profile.php?id=100007090596130"],
+        ["icon-globe", "https://www.wantedly.com/users/19939464"]
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
+      name = "utahka"
       position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "説明"
       img = "person3.jpg"
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-globe", "#"]
       ]
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -252,16 +200,15 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    map = false
+    title = "Contact"
+    #description = "Contact"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Chiba Institute of Technology"],
+        ["icon-envelope", "oklab.main@gmail.com"],
+        ["icon-twitter",'<a href="https://twitter.com/_oklab_?lang=ja" target="_blank">@\_oklab\_</a>']
       ]
 
     name = "Name"
