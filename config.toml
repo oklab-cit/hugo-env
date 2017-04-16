@@ -94,7 +94,7 @@ theme = "hugo-elate-theme"
   [params.testimonials]
     enable = true
     title = "Vision"
-    description = "説明"
+    description = "人はジェスチャーや表情、会話など多数の方法でコミュニケーションをとります。しかし、それでも自分の思ったことを表現するのは簡単ではありません。また耳や目、表情がさまざまなロボットとのコミュニケーションはこれらの方法が本当に適しているのでしょうか。</br></br>大川研究室では人と人、人とロボットの間に興味を持ち、音声認識、自然言語処理、アプリケーション、デバイスの開発などの多角的なアプローチでコミュニケーションを考えています。"
 
   # Services section
   [params.services]
@@ -125,38 +125,38 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "YY"
-      position = "Web Designer"
-      description = "説明"
+      position = "Robot & Sound Engineer"
+      description = "音楽とロボティクスを繋げることを目標にし、役に立たずとも隣に置いておきたくなるようなロボットの開発を目指している。"
       img = "person1.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-globe", "#"]
+        ["icon-twitter", "https://twitter.com/sinoginnCIT"],
+        ["icon-facebook", "https://m.facebook.com/sonobasinoginn"],
+        ["icon-globe", "https://www.wantedly.com/users/18372785"]
       ]
 
     [[params.about.item]]
       name = "Algo"
-      position = "Web Developer"
-      description = "説明"
+      position = "Robot Technician"
+      description = "実用性よりもエンターテインメント性、SpecialistよりもGeneralistを目指して日々色々な事に挑戦中。"
       img = "person2.jpg"
       alt = "Person2"
       social = [
-        ["icon-twitter", "https://twitter.com/pianodwm?lang=ja"],
-        ["icon-facebook", "https://www.facebook.com/profile.php?id=100007090596130"],
+        ["icon-twitter", "https://twitter.com/pianodwm"],
+        ["icon-facebook", "https://www.facebook.com/pianodwm"],
         ["icon-globe", "https://www.wantedly.com/users/19939464"]
       ]
 
     [[params.about.item]]
       name = "utahka"
-      position = "Web Designer"
-      description = "説明"
+      position = "Engineer"
+      description = ""
       img = "person3.jpg"
       alt = "Person3"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-globe", "#"]
+        ["icon-twitter", "https://twitter.com/utahkaA"],
+        ["icon-facebook", "https://www.facebook.com/utahkaA"],
+        ["icon-globe", "https://www.wantedly.com/users/17998103"]
       ]
 
   # Counters section
